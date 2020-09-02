@@ -1,12 +1,18 @@
-# main links
-main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+nav:
+  - title: "Skills"
+    section: services
+
+  - title: "Project"
+    section: portfolio
+    
+  - title: "About"
+    section: about
+
+  # - title: "Team"
+  #   section: team
+
+  - title: "Contact"
+    section: team
+
+  # - title: "Theme Source"
+  #   url: https://github.com/raviriley/agency-jekyll-theme/
