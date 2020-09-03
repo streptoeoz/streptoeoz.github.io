@@ -135,7 +135,7 @@
       <div class="col-lg-12 text-center">
         <h2 class="section-heading text-uppercase"><p>Projects</p>
 </h2>
-        <h3 class="section-subheading text-muted"><p>Lorem ipsum dolor sit amet consectetur.</p>
+        <h3 class="section-subheading text-muted">
 </h3>
       </div>
     </div>
@@ -148,11 +148,11 @@
               <i class="fas fa-plus fa-3x"></i>
             </div>
           </div>
-          <img class="img-fluid" src="https://place-hold.it/400x300" alt="">
+          <img class="img-fluid" src="assets/img/1.jpg" alt="">
         </a>
         <div class="portfolio-caption">
-          <h4>Example</h4>
-          <p class="text-muted">subtitle</p>
+          <!-- <h4>Project 1</h4> -->
+          <p class="text-muted">Left-invariant EKF for Drone Localization</p>
         </div>
       </div>
 	
@@ -163,11 +163,11 @@
               <i class="fas fa-plus fa-3x"></i>
             </div>
           </div>
-          <img class="img-fluid" src="https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/01-thumbnail.jpg" alt="">
+          <img class="img-fluid" src="assets/img/2.jpg" alt="">
         </a>
         <div class="portfolio-caption">
-          <h4>Threads</h4>
-          <p class="text-muted">Illustration</p>
+          <!-- <h4>Project 2</h4> -->
+          <p class="text-muted">Learning Based Sampling for RRT*</p>
         </div>
       </div>
 	
@@ -178,11 +178,56 @@
               <i class="fas fa-plus fa-3x"></i>
             </div>
           </div>
-          <img class="img-fluid" src="https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/02-thumbnail.jpg" alt="">
+          <img class="img-fluid" src="assets/img/3.jpg" alt="">
         </a>
         <div class="portfolio-caption">
-          <h4>Explore</h4>
-          <p class="text-muted">Graphic Design</p>
+          <!-- <h4>Project 3</h4> -->
+          <p class="text-muted">PointNet for Point Cloud Classification</p>
+        </div>
+      </div>
+	
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a class="portfolio-link" data-toggle="modal" href="#p4">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fas fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="assets/img/4.jpg" alt="">
+        </a>
+        <div class="portfolio-caption">
+          <!-- <h4>Project 4</h4> -->
+          <p class="text-muted">Mobile Robot Maze Exploration</p>
+        </div>
+      </div>
+	
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a class="portfolio-link" data-toggle="modal" href="#p5">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fas fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="assets/img/5.jpg" alt="">
+        </a>
+        <div class="portfolio-caption">
+          <!-- <h4>Project 5</h4> -->
+          <p class="text-muted">Drainage Inspection Robot</p>
+        </div>
+      </div>
+	
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a class="portfolio-link" data-toggle="modal" href="#p6">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fas fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="assets/img/6.jpg" alt="">
+        </a>
+        <div class="portfolio-caption">
+          <!-- <h4>Project 6</h4> -->
+          <p class="text-muted">Quadruped Nonlinear Trajectory Planning</p>
         </div>
       </div>
 	
@@ -204,19 +249,10 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Title</h2>
-                <p class="item-intro text-muted">subtitle lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="https://place-hold.it/400x300" alt="image alt text">
-				<p><p>Use this area to describe your project. <strong>Markdown</strong> supported.</p>
-
-<p>optional info list (delete if not using):</p>
-
-<ul class="list-inline">
-  <li>Date:</li>
-  <li>Client:</li>
-  <li>Category:</li>
-</ul>
-
+                <h2 class="text-uppercase">Left-invariant EKF for Drone Localization</h2>
+                <p class="item-intro text-muted">in-EKF, Localization, Sensor Fusion</p>
+                <img class="img-fluid d-block mx-auto" src="assets/img/projects/drone_localization.png" alt="image alt text">
+				<p><p>An invariant EKF is implemented for a quadruped in Matlab and C++. We used self-generated fake data and <a href="http://rpg.ifi.uzh.ch/zurichmavdataset.html">Zurich Urban Aerial Vehicle Dataset</a> to verify our filter. For more details, please refer to the report in our <a href="https://github.com/ghaggin/invariant-ekf">github page</a>.</p>
 </p>		
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
@@ -242,16 +278,19 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Threads</h2>
-                <p class="item-intro text-muted">subtitle lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/01-full.jpg" alt="Shirts on a hanger">
-				<p><p>Use this area to describe your project. <strong>Markdown</strong> supported. This entry (project1.md) uses links for the image sources. All other projects in the portfolio use local images. Both work just fine! Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <h2 class="text-uppercase">Learning Based Sampling for RRT*</h2>
+                <p class="item-intro text-muted">RRT*, Conditional Variational Autoencoder (CVAE), Machine Learning</p>
+                <img class="img-fluid d-block mx-auto" src="assets/img/projects/rrt1.png" alt="image alt text">
+				<p><p>Compared with traditional uniformly sampled path planning approaches, a biased sampling method which learns from demonstrations and environmental restrictions would be preferable due to its efficiency and generality, as it can capture the obstacles and some sense of dynamics in the system. In this project, we have combined RRT∗ algorithm and a conditional variational autoencoder (CVAE) trained to learn from the latent dimensions and propose samples accordingly. We have generated and trained on our own datasets, including 4 maps and 26985 sampling states. The sampling states are generated with hybrid A*. <br /></p>
 
-<ul class="list-inline">
-  <li>Date: January 2017</li>
-  <li>Client: Threads</li>
-  <li>Category: Illustration</li>
-</ul>
+<p>Assuming latent variables are Gaussian, the CVAE is trained to maximize the conditional log likelihood. The network contains a three-layer encoder and a three-layer decoder. The input to the encoder includes the grid obstacle map, successful planning states, intial and end point of the trajectory. In the offline test phase, only the decoder is utilized. <br /></p>
+
+<p>The modified planning algorithms are then applied on the vehicle parking path planning, and compared with the uniformly sampled RRT∗ and bi-RRT∗. A substantial boost is observed in path planning performance with this inclusion of biased sampling network. For RRT∗, the number of nodes extended, elapsed time and path length have dropped by 72.5%, 91.4% and 18.0% respectively. For bi-RRT∗, they have dropped by 55.1%, 70.4% and 17.7% respectively.</p>
+
+<!-- {:.list-inline}
+- Date: January 2017
+- Client: Threads
+- Category: Illustration -->
 
 </p>		
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
@@ -278,17 +317,124 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/02-full.jpg" alt="Keep Exploring">
-				<p><p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <h2 class="text-uppercase">PointNet for Point Cloud Classification</h2>
+                <p class="item-intro text-muted">point cloud, classification, supervised learning</p>
+                <img class="img-fluid d-block mx-auto" src="assets/img/projects/pointnet.png" alt="image alt text">
+				<p><p>We reimplemented <a href="https://arxiv.org/pdf/1612.00593.pdf">PointNet</a> for object classification with our own modifications. The results are evaluated utilizing <a href="https://arxiv.org/pdf/1612.00593.pdf">ModeNet40</a>. <br /></p>
 
-<ul class="list-inline">
-  <li>Date: January 2017</li>
-  <li>Client: Explore</li>
-  <li>Category: Graphic Design</li>
-</ul>
+<p>Modifications involve incorporating spatial transform networks to align the data, adding normal channels and including farthest point sample layer for better representation of geometric data.</p>
 
+<!-- {:.list-inline}
+- Date: January 2017
+- Client: Explore
+- Category: Graphic Design -->
+
+</p>		
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio-modal modal fade" id="p4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Mobile Robot Maze Exploration</h2>
+                <p class="item-intro text-muted">Robot Platform Development, Forward/Inverse Kinematics, Particle Filter, Path Planning</p>
+                <img class="img-fluid d-block mx-auto" src="assets/img/projects/botlab2.png" alt="image alt text">
+				<p><p>The SLAM (with particle filter), path planning, exploration and block retrieval functions are designed and implemented on a mobile robot. 
+The robot is equipped with BeagleBone Green for motion control and Raspberry Pi for SLAM and arm module. <br /></p>
+
+<p>With these subsystems, the robot is capable of exploring n unknown environment, constructing a map of the environment and retrieving blocks in it. The occupancy grid mapper in the SLAM system is able to generate grid maps at the resolution of 0.05 m, the Monte Carlo localization algorithm is able to reach a mean accuracy of 0.05 m in translation and 0.08 rad in rotation. <br /></p>
+
+<p>This system completed four tasks which included: 1) completing four circuits around a convex arena, 2) detection and relocation of six blocks within convex area, 3) exploration and mapping of an unknown environment, and 4) detection and relocation of 8 blocks scattered across a map.</p>
+</p>		
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio-modal modal fade" id="p5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Drainage Inspection Robot</h2>
+                <p class="item-intro text-muted">Robot Platform Development, Object Detection, 3D Reconstruction</p>
+                <img class="img-fluid d-block mx-auto" src="assets/img/projects/drainbot1.png" alt="image alt text">
+				<p><p>We develop an autonomous drains inspection robot platform that detects water and debris by using its onboard vision system. I mainly worked on debris detection algorithm utilizing 3D point cloud constructed from the stereo system and deployment of the visual module on the robot. <br /></p>
+
+<p>The debris detection algorithm is separated into three different parts. Firstly, the point cloud of the scene is reconstructed based on the stereo vision cameras’ output. Then, two sections of points along the drain are extracted and projected onto the X-Y plane. Secondly, an iterative constrained line searching algorithm is applied to obtain the drain ground markers, which represent the ground’s shape. Subsequently, this shape is extended to 3D dimensions to remove the cloud’s points along the ground planes. Finally, the rest of the points are clustered and classified as debris or obstacles based on their positions to the ground markers. <br /></p>
+
+<p>The robot was tested in a 100-meter drain in Singapore. 99\% and 91\% of the water and debris were correctly detected, respectively. Furthermore, an obstacle obstructing the robot’s progression inside the drain was recognized 90\% out of 20 trials.</p>
+
+<!-- {:.list-inline}
+- Date: January 2017
+- Client: Explore
+- Category: Graphic Design -->
+</p>		
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio-modal modal fade" id="p6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Quadruped Nonlinear Trajectory Planning</h2>
+                <p class="item-intro text-muted">Simulation, Motion Planning, Nonlinear Programming</p>
+                <img class="img-fluid d-block mx-auto" src="assets/img/projects/quad1.gif" alt="image alt text">
+				<p><p>A offline nonlinear trajectory planning approach utilizing <a href="https://github.com/ethz-adrl/towr">TOWR</a> for our quadruped Pholus was implemented.</p>
+
+<!-- {:.list-inline}
+- Date: January 2017
+- Client: Explore
+- Category: Graphic Design -->
 </p>		
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
