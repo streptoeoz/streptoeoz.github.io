@@ -2,7 +2,7 @@
 caption:
   title: Project 4
   subtitle: Mobile Robot Maze Exploration
-  thumbnail: assets/img/4.jpg
+  thumbnail: assets/img/projects/botlab1.png
 
 title: Mobile Robot Maze Exploration
 subtitle: Robot Platform Development, Forward/Inverse Kinematics, Particle Filter, Path Planning

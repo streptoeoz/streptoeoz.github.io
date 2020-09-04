@@ -2,11 +2,11 @@
 caption:
   title: Project 2
   subtitle: Learning Based Sampling for RRT*
-  thumbnail: assets/img/2.jpg
+  thumbnail: assets/img/projects/rrt1.png
 
 title: Learning Based Sampling for RRT*
 subtitle: RRT*, Conditional Variational Autoencoder (CVAE), Machine Learning
-image: assets/img/projects/rrt1.png
+image: assets/img/projects/rrt2.png
 alt: image alt text
 
 ---

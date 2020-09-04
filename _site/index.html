@@ -163,7 +163,7 @@
               <i class="fas fa-plus fa-3x"></i>
             </div>
           </div>
-          <img class="img-fluid" src="assets/img/2.jpg" alt="">
+          <img class="img-fluid" src="assets/img/projects/rrt1.png" alt="">
         </a>
         <div class="portfolio-caption">
           <!-- <h4>Project 2</h4> -->
@@ -193,7 +193,7 @@
               <i class="fas fa-plus fa-3x"></i>
             </div>
           </div>
-          <img class="img-fluid" src="assets/img/4.jpg" alt="">
+          <img class="img-fluid" src="assets/img/projects/botlab1.png" alt="">
         </a>
         <div class="portfolio-caption">
           <!-- <h4>Project 4</h4> -->
@@ -208,7 +208,7 @@
               <i class="fas fa-plus fa-3x"></i>
             </div>
           </div>
-          <img class="img-fluid" src="assets/img/5.jpg" alt="">
+          <img class="img-fluid" src="assets/img/projects/drainbot2.png" alt="">
         </a>
         <div class="portfolio-caption">
           <!-- <h4>Project 5</h4> -->
@@ -223,7 +223,7 @@
               <i class="fas fa-plus fa-3x"></i>
             </div>
           </div>
-          <img class="img-fluid" src="assets/img/6.jpg" alt="">
+          <img class="img-fluid" src="assets/img/projects/quad1.gif" alt="">
         </a>
         <div class="portfolio-caption">
           <!-- <h4>Project 6</h4> -->
@@ -280,7 +280,7 @@
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Learning Based Sampling for RRT*</h2>
                 <p class="item-intro text-muted">RRT*, Conditional Variational Autoencoder (CVAE), Machine Learning</p>
-                <img class="img-fluid d-block mx-auto" src="assets/img/projects/rrt1.png" alt="image alt text">
+                <img class="img-fluid d-block mx-auto" src="assets/img/projects/rrt2.png" alt="image alt text">
 				<p><p>Compared with traditional uniformly sampled path planning approaches, a biased sampling method which learns from demonstrations and environmental restrictions would be preferable due to its efficiency and generality, as it can capture the obstacles and some sense of dynamics in the system. In this project, we have combined RRT∗ algorithm and a conditional variational autoencoder (CVAE) trained to learn from the latent dimensions and propose samples accordingly. We have generated and trained on our own datasets, including 4 maps and 26985 sampling states. The sampling states are generated with hybrid A*. <br /></p>
 
 <p>Assuming latent variables are Gaussian, the CVAE is trained to maximize the conditional log likelihood. The network contains a three-layer encoder and a three-layer decoder. The input to the encoder includes the grid obstacle map, successful planning states, intial and end point of the trajectory. In the offline test phase, only the decoder is utilized. <br /></p>
@@ -395,7 +395,7 @@ The robot is equipped with BeagleBone Green for motion control and Raspberry Pi 
 
 <p>The debris detection algorithm is separated into three different parts. Firstly, the point cloud of the scene is reconstructed based on the stereo vision cameras’ output. Then, two sections of points along the drain are extracted and projected onto the X-Y plane. Secondly, an iterative constrained line searching algorithm is applied to obtain the drain ground markers, which represent the ground’s shape. Subsequently, this shape is extended to 3D dimensions to remove the cloud’s points along the ground planes. Finally, the rest of the points are clustered and classified as debris or obstacles based on their positions to the ground markers. <br /></p>
 
-<p>The robot was tested in a 100-meter drain in Singapore. 99\% and 91\% of the water and debris were correctly detected, respectively. Furthermore, an obstacle obstructing the robot’s progression inside the drain was recognized 90\% out of 20 trials.</p>
+<p>The robot was tested in a 100-meter drain in Singapore. 99% and 91% of the water and debris were correctly detected, respectively. Furthermore, an obstacle obstructing the robot’s progression inside the drain was recognized 90% out of 20 trials.</p>
 
 <!-- {:.list-inline}
 - Date: January 2017
@@ -428,8 +428,8 @@ The robot is equipped with BeagleBone Green for motion control and Raspberry Pi 
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Quadruped Nonlinear Trajectory Planning</h2>
                 <p class="item-intro text-muted">Simulation, Motion Planning, Nonlinear Programming</p>
-                <img class="img-fluid d-block mx-auto" src="assets/img/projects/quad1.gif" alt="image alt text">
-				<p><p>A offline nonlinear trajectory planning approach utilizing <a href="https://github.com/ethz-adrl/towr">TOWR</a> for our quadruped Pholus was implemented.</p>
+                <img class="img-fluid d-block mx-auto" src="assets/img/projects/quad2.png" alt="image alt text">
+				<p><p>A offline nonlinear trajectory planning approach utilizing <a href="https://github.com/ethz-adrl/towr">TOWR</a> for our quadruped Pholus was implemented. The trajectory for four end-effectors are calculated and simulated with Gazebo. We are using single rigid body dynamics for the dynamic model and a cartesian space kinematic model bouding the motion of the end effectors.</p>
 
 <!-- {:.list-inline}
 - Date: January 2017
