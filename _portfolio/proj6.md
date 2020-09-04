@@ -1,17 +1,20 @@
 ---
 caption:
   title: Project 6
-  subtitle: Quadruped Nonlinear Trajectory Planning
-  thumbnail: assets/img/projects/quad1.gif
+  subtitle: PointNet for Point Cloud Classification
+  thumbnail: assets/img/3.jpg
 
-title: Quadruped Nonlinear Trajectory Planning
-subtitle: Simulation, Motion Planning, Nonlinear Programming
-image: assets/img/projects/quad2.png
+title: PointNet for Point Cloud Classification
+subtitle: point cloud, classification, supervised learning
+image: assets/img/projects/pointnet.png
 alt: image alt text
 ---
-A offline nonlinear trajectory planning approach utilizing [TOWR](https://github.com/ethz-adrl/towr) for our quadruped Pholus was implemented. The trajectory for four end-effectors are calculated and simulated with Gazebo. We are using single rigid body dynamics for the dynamic model and a cartesian space kinematic model bouding the motion of the end effectors. 
+We reimplemented [PointNet](https://arxiv.org/pdf/1612.00593.pdf) for object classification with our own modifications. The results are evaluated utilizing [ModeNet40](https://arxiv.org/pdf/1612.00593.pdf). <br>
+
+Modifications involve incorporating spatial transform networks to align the data, adding normal channels and including farthest point sample layer for better representation of geometric data.
 
 <!-- {:.list-inline}
 - Date: January 2017
 - Client: Explore
 - Category: Graphic Design -->
+

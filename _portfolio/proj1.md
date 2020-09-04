@@ -2,7 +2,7 @@
 caption: #what displays in the portfolio grid:
   title: Project 1
   subtitle: Left-invariant EKF for Drone Localization
-  thumbnail: assets/img/1.jpg
+  thumbnail: assets/img/projects/drone3.png
   
 #what displays when the item is clicked:
 title: Left-invariant EKF for Drone Localization
